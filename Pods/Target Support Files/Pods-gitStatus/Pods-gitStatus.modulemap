@@ -1,0 +1,6 @@
+framework module Pods_gitStatus {
+  umbrella header "Pods-gitStatus-umbrella.h"
+
+  export *
+  module * { export * }
+}
