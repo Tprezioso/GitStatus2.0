@@ -104,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				9F2D04E41F38E4EF00FE42F1 /* gitStatus */,
+				9F2D05291F4791C900FE42F1 /* Entitlements */,
 				9F2D04FC1F38E4EF00FE42F1 /* gitStatusTests */,
 				9F2D05071F38E4EF00FE42F1 /* gitStatusUITests */,
 				9F2D04E31F38E4EF00FE42F1 /* Products */,
@@ -125,7 +126,6 @@
 		9F2D04E41F38E4EF00FE42F1 /* gitStatus */ = {
 			isa = PBXGroup;
 			children = (
-				9F2D05281F4387CA00FE42F1 /* gitStatus.entitlements */,
 				9F2D04E51F38E4EF00FE42F1 /* AppDelegate.swift */,
 				9F2D05261F43879A00FE42F1 /* Model */,
 				9F2D05251F43878C00FE42F1 /* ViewController */,
@@ -189,6 +189,15 @@
 				9F2D05201F38E55C00FE42F1 /* Octocat.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		9F2D05291F4791C900FE42F1 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				9F2D05281F4387CA00FE42F1 /* gitStatus.entitlements */,
+			);
+			name = Entitlements;
+			path = gitStatus;
 			sourceTree = "<group>";
 		};
 		BD4CBC77D1823CD09D1BE6B8 /* Pods */ = {
