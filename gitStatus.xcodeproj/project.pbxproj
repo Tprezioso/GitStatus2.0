@@ -21,6 +21,7 @@
 		9F2D05211F38E55C00FE42F1 /* GitStatusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D051E1F38E55C00FE42F1 /* GitStatusIcon.png */; };
 		9F2D05221F38E55C00FE42F1 /* Octicons-mark-github.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D051F1F38E55C00FE42F1 /* Octicons-mark-github.svg.png */; };
 		9F2D05231F38E55C00FE42F1 /* Octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D05201F38E55C00FE42F1 /* Octocat.png */; };
+		9F6343AC1F4B5B1D009929E9 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6343AB1F4B5B1D009929E9 /* GoogleService-Info (1).plist */; };
 		FC5C3FA3AB5C5AE04FA7B770 /* Pods_gitStatusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF71A5502922C51A2E324AA /* Pods_gitStatusUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		9F2D051F1F38E55C00FE42F1 /* Octicons-mark-github.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Octicons-mark-github.svg.png"; sourceTree = "<group>"; };
 		9F2D05201F38E55C00FE42F1 /* Octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Octocat.png; sourceTree = "<group>"; };
 		9F2D05281F4387CA00FE42F1 /* gitStatus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gitStatus.entitlements; sourceTree = "<group>"; };
+		9F6343AB1F4B5B1D009929E9 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		A5A0EEF2A83AEFE87C95641E /* Pods_gitStatusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitStatusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B137FD87F607573780688580 /* Pods-gitStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitStatus.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitStatus/Pods-gitStatus.release.xcconfig"; sourceTree = "<group>"; };
 		BED6F9C52E333EAEEA29B41D /* Pods-gitStatusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitStatusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitStatusUITests/Pods-gitStatusUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				9F2D05271F4387A800FE42F1 /* Images */,
 				9F2D04EF1F38E4EF00FE42F1 /* Assets.xcassets */,
 				9F2D04F41F38E4EF00FE42F1 /* Info.plist */,
+				9F6343AB1F4B5B1D009929E9 /* GoogleService-Info (1).plist */,
 				9F2D04EC1F38E4EF00FE42F1 /* gitStatus.xcdatamodeld */,
 			);
 			path = gitStatus;
@@ -356,6 +359,7 @@
 				9F2D05211F38E55C00FE42F1 /* GitStatusIcon.png in Resources */,
 				9F2D05171F38E51600FE42F1 /* Main.storyboard in Resources */,
 				9F2D04F01F38E4EF00FE42F1 /* Assets.xcassets in Resources */,
+				9F6343AC1F4B5B1D009929E9 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
