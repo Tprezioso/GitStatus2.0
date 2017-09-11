@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        getUserTokeFTIA()
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
@@ -116,6 +117,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         Messaging.messaging().appDidReceiveMessage(userInfo)
         // handle your message
     }
+    
+    func getUserTokeFTIA() {
+        // MARK : The Token ia needed for push notifications
+        // TODO : Watch for token error when testing push notifications on multiple devices
+        let token = InstanceID.instanceID().token()! //FIRInstanceID.instanceID().token()!
+        print("\(token)>>>>>>>>>>>>>>>>>>>>>>>>")
+        // MARK : Reference to Firebase Database
+        var ref: DatabaseReference!
+        ref = Database.database().reference(withPath: "push-token")
+        let tokenForDatabase = ref.child("user_token")
+        tokenForDatabase.setValue(["Token" : token])
+        ref.observe(.value, with: { snapshot in
+            print(snapshot.value!)
+        })
+        //UserDefaults.standard.set(true, forKey: "launchedBefore")
+    }
+
     
     
     // MARK: - Core Data stack
