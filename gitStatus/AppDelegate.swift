@@ -133,8 +133,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         })
         //UserDefaults.standard.set(true, forKey: "launchedBefore")
     }
-
-    
     
     // MARK: - Core Data stack
 
