@@ -131,6 +131,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         ref.observe(.value, with: { snapshot in
             print(snapshot.value!)
         })
+        // This code below is code used for first time in app that is located in orginal git status app
         //UserDefaults.standard.set(true, forKey: "launchedBefore")
     }
     
