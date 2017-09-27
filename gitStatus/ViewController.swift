@@ -132,7 +132,7 @@ class ViewController: UIViewController {
             print("this is working?")
         }
 
-    // Mark: - Print statements for internet connection
+    // MARK: - Print statements for internet connection
         print("Reachability Summary")
         print("Status:", status)
         print("HostName:", Network.reachability?.hostname ?? "nil")
