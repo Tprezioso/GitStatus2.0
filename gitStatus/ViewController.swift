@@ -93,22 +93,6 @@ class ViewController: UIViewController {
         }
     }
     
-    // MARK: - Helper Method(s)
-    
-    func takeStringFromBeginning(stringToCut:String ,start: Int, end: Int) -> String {
-        let startIndex = stringToCut.index(stringToCut.startIndex, offsetBy: start)
-        let endIndex = stringToCut.index(stringToCut.startIndex, offsetBy: end)
-        
-        return stringToCut[startIndex...endIndex]
-    }
-    
-    func getDateFromJSONDate(dateString: String) -> String {
-        let day = takeStringFromBeginning(stringToCut: dateString, start: 8, end: 9)
-        let month = takeStringFromBeginning(stringToCut: dateString, start: 5, end: 6)
-        let year = takeStringFromBeginning(stringToCut: dateString, start: 0, end: 3)
-        
-        return "Last Updated\n\(month)/\(day)/\(year)"
-    }
 
     // MARK: - Check for internet connection using Reachability
     
